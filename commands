@@ -33,3 +33,6 @@ source ml-pipeline/bin/activate
 python ml-pipeline/CI_pipeline.py
 
 deactivate
+
+
+chmod +x post-commit
