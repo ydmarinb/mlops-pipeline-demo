@@ -55,7 +55,7 @@ def run_tests_and_upload_model(model_dir_path):
                 upload_file(hiper_path)
 
                 # Retornar al directorio raiz
-                os.chdir('../')
+                os.chdir('../../')
                 print("Nuevo modelo registrado: ", model_name)
                 publish_message("Nuevo modelo")
             else:
