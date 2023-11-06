@@ -12,10 +12,11 @@ model = 'model_v1'
 
 # load data
 df = pd.read_csv(manejador_datos.obtener_nombre_csv_unico('./'))
-X = df.drop(columns=['id_usuario', 'direccion'])
+X = df.drop(columns=['id_usuario', 'direccion', 'producto'])
 y = df['producto']
 
 
+ 
 # split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 

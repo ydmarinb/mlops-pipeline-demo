@@ -1,4 +1,4 @@
-#!/Users/daniel.marin/Desktop/mlops-pipeline-demo/model_v1/bin/python
+#!/Users/daniel.marin/Desktop/mlops-pipeline-demo/ml-pipeline/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

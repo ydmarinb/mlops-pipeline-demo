@@ -17,7 +17,7 @@ project_id = 'ydmarinb'
 topic_name = "new-model"
 
 # Ruta al directorio base que contiene las carpetas de modelos
-base_dir = "C:/Users/ydmarinb/Desktop/demo/models-demo-mlops/"
+base_dir = "/Users/daniel.marin/Desktop/mlops-pipeline-demo/ml-pipeline"
 
 # Nombre del bucket de almacenamiento de Google Cloud
 bucket_name = "registry-models"
@@ -106,6 +106,7 @@ if __name__ == "__main__":
 
     for model_dir in model_dirs:
         model_dir_path = os.path.join(base_dir, model_dir)
+        print(model_dir_path)
         run_tests_and_upload_model(model_dir_path)
 
 

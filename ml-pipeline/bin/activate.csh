@@ -10,7 +10,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV '/Users/daniel.marin/Desktop/mlops-pipeline-demo/model_v1'
+setenv VIRTUAL_ENV '/Users/daniel.marin/Desktop/mlops-pipeline-demo/ml-pipeline'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"

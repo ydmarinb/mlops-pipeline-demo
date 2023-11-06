@@ -32,7 +32,7 @@ export-env {
       }
     }
 
-    let virtual_env = '/Users/daniel.marin/Desktop/mlops-pipeline-demo/model_v1'
+    let virtual_env = '/Users/daniel.marin/Desktop/mlops-pipeline-demo/ml-pipeline'
     let bin = 'bin'
 
     let is_windows = ($nu.os-info.family) == 'windows'

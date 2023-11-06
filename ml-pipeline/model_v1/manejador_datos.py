@@ -10,7 +10,7 @@ def copiar_ultimo_archivo_en_carpeta_actual() -> NoReturn:
     :return: None
     """
     # Ruta al directorio de donde se buscarán los archivos
-    directorio_objetivo: str = '../data-pipeline/clean_data'
+    directorio_objetivo: str = '../../data-pipeline/clean_data'
     
     # Lista de archivos en el directorio, ignorando subdirectorios
     archivos: list[str] = [archivo for archivo in os.listdir(directorio_objetivo) 
@@ -54,13 +54,9 @@ def obtener_nombre_csv_unico(directorio: str) -> str:
     else:
         raise ValueError("Hay más de un archivo CSV en el directorio.")
 
-# Ejemplo de uso:
-# Suponiendo que 'ruta_al_directorio' es la ruta al directorio donde quieres buscar
 
 
 
 
-# Llamar a la función
-if __name__ == "__main__":
-    copiar_ultimo_archivo_en_carpeta_actual()
+
 

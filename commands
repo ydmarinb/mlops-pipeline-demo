@@ -12,3 +12,13 @@ python3 -m virtualenv model_v1
 source mode_v1/bin/activate
 
 pip install -U scikit-learn
+
+
+- credenciales de google
+- porbar registri
+- intertar un un nuevo modelo
+
+
+pip3 install google-cloud-storage
+
+pip3 install google-cloud-pubsub
