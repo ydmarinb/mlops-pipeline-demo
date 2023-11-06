@@ -164,3 +164,4 @@ mlruns/
 # Others
 secrets.yml
 credentials.json
+hiperparametros*
