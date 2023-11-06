@@ -22,3 +22,14 @@ pip install -U scikit-learn
 pip3 install google-cloud-storage
 
 pip3 install google-cloud-pubsub
+
+
+#! /usr/bin/env bash
+
+git push origin main  
+
+source ml-pipeline/bin/activate
+
+python ml-pipeline/CI_pipeline.py
+
+deactivate
