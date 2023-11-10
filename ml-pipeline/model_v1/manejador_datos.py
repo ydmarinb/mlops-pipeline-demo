@@ -19,7 +19,7 @@ def copiar_ultimo_archivo_en_carpeta_actual() -> NoReturn:
     # Si no hay archivos en la carpeta, terminar la función
     if not archivos:
         print("No hay archivos en la carpeta objetivo.")
-        return None
+        return
 
     # Ruta completa al archivo más reciente
     ultimo_archivo: str = max([os.path.join(directorio_objetivo, archivo) for archivo in archivos], 
