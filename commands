@@ -18,6 +18,7 @@ pip install -U scikit-learn
 - porbar registri
 - intertar un un nuevo modelo
 
+djioedje
 
 pip3 install google-cloud-storage
 
