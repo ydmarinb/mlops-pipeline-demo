@@ -9,6 +9,7 @@ deactivate
 
 python3 -m virtualenv model_v1
 
+djowd
 source mode_v1/bin/accnklctivate
 
 pip install -U scikit-learn
